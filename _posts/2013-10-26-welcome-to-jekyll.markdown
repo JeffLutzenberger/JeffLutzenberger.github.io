@@ -5,9 +5,9 @@ date:   2013-10-26 09:16:11
 categories: product management, platform, api
 ---
 
-As I was reading Marty Cagan's article, [The Power of Reference Customers][http://svcg.com] I couldn’t help but think of a small success we recently had with one of our customers.
+As I was reading Marty Cagan's article, [The Power of Reference Customers](http://www.svpg.com/the-power-of-reference-customers/) I couldn’t help but think of a small success we recently had with one of our customers.
 
-Our customer wanted a novel and non-trivial feature added to our product. This feature was critical to their workflow and adoption of our product was contingent on our ability to deliver it. By working closely with the customer, WebFilings was able to deliver a solution they were extremely pleased with. A few things about the success of the project resonated with me. I think you might enjoy some of the leassons we learned.
+Our customer wanted a novel and non-trivial feature added to our product. This feature was critical to their workflow and adoption of our product was contingent on our ability to deliver it. We were able to knock it out of the park by working closely with the customer. A few things about the success of the project resonated with me. I think you might enjoy some of the leassons we learned.
 
 1. The Importance of Platform and APIs
 ====
