@@ -3,6 +3,7 @@
 /* Common
 /*
 /*****************************************************************************/
+/*@charset 'UTF-8';*/
 
 /* Global Reset */
 * {
@@ -164,7 +165,6 @@ ul.posts span {
 /* Ligature Symbols
 /*
 /*****************************************************************************/
-@charset 'UTF-8';
 
 @font-face {
     font-family: 'LigatureSymbols';
@@ -179,6 +179,7 @@ ul.posts span {
 
 .lsf {
   font-family: 'LigatureSymbols';
+  font-size:32px;
   -webkit-text-rendering: optimizeLegibility;
   -moz-text-rendering: optimizeLegibility;
   -ms-text-rendering: optimizeLegibility;
@@ -195,24 +196,25 @@ ul.posts span {
   -o-font-feature-settings: "liga" 1, "dlig" 1;
   font-feature-settings: "liga" 1, "dlig" 1;
 }
-.lsf-icon:before {
-  content:attr(title);
-  margin-right:0.3em;
-  font-size:130%;
-  font-family: 'LigatureSymbols';
-  -webkit-text-rendering: optimizeLegibility;
-  -moz-text-rendering: optimizeLegibility;
-  -ms-text-rendering: optimizeLegibility;
-  -o-text-rendering: optimizeLegibility;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -ms-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  -webkit-font-feature-settings: "liga" 1, "dlig" 1;
-  -moz-font-feature-settings: "liga=1, dlig=1";
-  -ms-font-feature-settings: "liga" 1, "dlig" 1;
-  -o-font-feature-settings: "liga" 1, "dlig" 1;
-  font-feature-settings: "liga" 1, "dlig" 1;
+
+
+.lsf li {
+  display:inline-block;
+  text-align:center
 }
+
+.lsf a {
+  font-family:"LigatureSymbols",sans-serif;
+  font-size:32px;
+  font-weight:normal;
+  text-decoration:none;
+  padding:0 5px;
+  -webkit-font-smoothing:antialiased;
+  padding:0 20px;
+  text-align:center
+}
+
+.social-links a {
+  padding:0 20px
+}
+
