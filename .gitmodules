@@ -1,0 +1,3 @@
+[submodule "jsSwarm"]
+	path = jsSwarm
+	url = git@github.com:JeffLutzenberger/jsSwarm.git

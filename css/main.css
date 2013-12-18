@@ -200,7 +200,7 @@ ul.posts span {
 
 .lsf li {
   display:inline-block;
-  text-align:center
+  text-align:center;
 }
 
 .lsf a {
@@ -211,7 +211,7 @@ ul.posts span {
   padding:0 5px;
   -webkit-font-smoothing:antialiased;
   padding:0 20px;
-  text-align:center
+  text-align:center;
 }
 
 .social-links a {
