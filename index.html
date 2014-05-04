@@ -1,13 +1,88 @@
----
-layout: default
-title: Jeff Lutzenberger
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="Jeff Lutzenberger" />
+    <meta name="description" content="Jeff Lutzenberger" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+            background-color:rgb(50,50,50);
+        }
 
-<div id="home">
-  <h1>Blog</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+        .starter-template {
+            /*padding: 40px 15px;*/
+            text-align: center;  /* comment this to disable centering */
+        }
+        
+        @media (min-width:1024px) { 
+            .navbar > .container {
+                text-align: center;
+            }
+            .navbar-header,.navbar-brand,.navbar .navbar-nav,.navbar .navbar-nav > li {
+                float: none;
+                display: inline-block;
+            }
+            .collapse.navbar-collapse {
+                float: none;
+                display: inline-block!important;
+                width: auto;
+                clear: none;
+            }
+        }
+
+        <!-- Custom CSS -->
+
+    </style>    
+    <title>Jeff Lutzenberger</title>
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<html>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header nav-center">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Jeff Lutzenberger</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav nav-center">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="demos.html">Personal Projects</a></li>
+                        <li><a href="cv.html">Curriculum Vitae</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="starter-template">
+                <img src="images/earth_stood_still.jpg" height="800" alt="earth stood still">
+                <div class="contact social-links">
+                    <ul class="lsf">
+                        <li><a href="http://www.linkedin.com/pub/jeff-lutzenberger/13/a4b/486/" class="lsf symbol" title="linkedin">linkedin</a>
+                        <li><a href="http://twitter.com/jlutzenberger" class="lsf symbol" title="twitter">twitter</a>
+                        <li><a href="http://github.com/jefflutzenberger" class="lsf symbol" title="github">github</a>
+                        <li><a href="https://plus.google.com/u/0/101890577283886862868/posts" class="lsf symbol" title="google">google</a>
+                        <li><a href="https://www.facebook.com/jeff.lutzenberger" class="lsf symbol" title="google">facebook</a>
+                        <li><a href="mailto://jefflutzenberger@gmail.com" class="lsf symbol" title="mail">mail</a>
+                    </ul>
+                    <br />
+                </div>
+
+            </div>
+
+        </div><!-- /.container -->
+</body>
+</html>
